@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+    
+    <div id="playersSection">
+        <p>Player 1: <span id="player1">0</span> </p>
+        <p>Player 2: <span id="player2">0</span> </p>
+    </div>
     <table>
+        <h2 id="heading" style="text-align: center;">Player 1</h2>
         <tr>
             <td id="box1" onclick="boxClicked('box1')"></td>
             <td id="box2" onclick="boxClicked('box2')"></td>
@@ -24,6 +30,7 @@
             <td id="box9" onclick="boxClicked('box9')"></td>
         </tr>
     </table>
+    <button id="resetbtn" onclick="clearTable()">Reset</button>
 
     <script src="./index.js"></script>
 </body>

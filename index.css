@@ -10,3 +10,7 @@ td{
 table{
     margin:50px auto;
 }
+#playersSection{
+    display: flex;
+    justify-content: space-around;
+}
