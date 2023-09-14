@@ -8,9 +8,39 @@ td{
     font-size: 32px;
 }
 table{
-    margin:50px auto;
+    margin:0px auto;
 }
-#playersSection{
+#playersSection {
     display: flex;
     justify-content: space-around;
+    background: lightpink;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+div#playersSection p {
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+body {
+    background: currentColor;
+}
+
+h2#heading {
+    margin-top: 25px;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+button#resetbtn {
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 0px 15px;
+    border-radius: 5px;
+    color: white;
+    background: black;
+}
+div#btn-wrapper {
+    text-align: center;
+    margin-top: 20px;
 }

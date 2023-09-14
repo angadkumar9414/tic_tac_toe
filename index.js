@@ -60,7 +60,7 @@ function calculateResult(sign) {
 
 function toShowResult() {
     if (isGameFinished == true) {
-        console.log("game finished")
+        // console.log("game finished")
         if (winner != null) {
             // alert("winner is "+ winner);
             headingElement.innerText = winner + " won";
